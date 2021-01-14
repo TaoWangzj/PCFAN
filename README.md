@@ -17,6 +17,13 @@ ___
 - Numpy >= 1.14.3
 - Scipy >= 1.1.0
 
+## Dataset make
+Make you dataset by:
+Downloading the ITS training and SOTS testing datasets from [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0).
+1. Training dataset: Put hazy and clear folers from downloaded ITS in ```./data/train/ITS/```. 
+2. Testing dataset:  put downloaded SOTS them(~1000 images) in ```./data/testing/SOTS/```. 
+3. Note: train.txt and val.txt provide the image list for training and testing, respectively.
+
 ## Code Introduction
 - ```train.py``` and ```test.py``` are the codes for training and testing the PCFAN.
 - ```./datasets/datasets.py``` is used to load the training and testing datasets.
@@ -28,6 +35,7 @@ ___
 - The ```./logs/run_indoor.log ``` and ``` ./logs/run_outdoor.log``` record the detailed training logs.
 - The testing hazy images are saved in ```./results/indoor_results/``` and ```./results/outdoor_results/```, respectively.
 - The ```./data/``` folder stores the training and testing data.
+
 ## Train
 You can train the model for indoor dataset by:
 ```
