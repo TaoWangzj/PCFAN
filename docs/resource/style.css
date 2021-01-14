@@ -108,16 +108,16 @@
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
 
-    .card {
-        width: 550px;
-        height: 413px;
-        background: url("hazy.jpg") no-repeat;
+    .card1 {
+        width: 500px;
+        height: 400px;
+        background: url("hazy1.jpg") no-repeat;
         display: inline-block;
         position: relative;
         margin-bottom: 30px;
     }
-    .card:hover {
-        background: url("dehazed.jpg") no-repeat;
+    .card1:hover {
+        background: url("dehazed1.jpg") no-repeat;
     }
 
     .caption-container {
@@ -129,10 +129,99 @@
         line-height: 30px;
     }
 
-    .card .caption::after{
-        content: "Haze Image"
+    .card1 .caption::after{
+        content: "Haze Image1"
     }
 
-    .card:hover .caption::after{
-        content: "Dehazed Image"
+    .card1:hover .caption::after{
+        content: "Dehazed Image1"
+    }
+
+    .card2 {
+        width: 500px;
+        height: 400px;
+        background: url("hazy2.jpg") no-repeat;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .card2:hover {
+        background: url("dehazed2.jpg") no-repeat;
+    }
+
+    .caption-container {
+        width: 100%;
+        position: absolute;
+        bottom: -30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .card2 .caption::after{
+        content: "Haze Image2"
+    }
+
+    .card2:hover .caption::after{
+        content: "Dehazed Image2"
+    }
+
+   
+    .card3 {
+        width: 500px;
+        height: 400px;
+        background: url("hazy3.jpg") no-repeat;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .card3:hover {
+        background: url("dehazed3.jpg") no-repeat;
+    }
+
+    .caption-container {
+        width: 100%;
+        position: absolute;
+        bottom: -30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .card3 .caption::after{
+        content: "Haze Image3"
+    }
+
+    .card3:hover .caption::after{
+        content: "Dehazed Image3"
+    }
+
+
+    .card4 {
+        width: 500px;
+        height: 400px;
+        background: url("hazy4.jpg") no-repeat;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .card4:hover {
+        background: url("dehazed4.jpg") no-repeat;
+    }
+
+    .caption-container {
+        width: 100%;
+        position: absolute;
+        bottom: -30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .card4 .caption::after{
+        content: "Haze Image4"
+    }
+
+    .card4:hover .caption::after{
+        content: "Dehazed Image4"
     }
