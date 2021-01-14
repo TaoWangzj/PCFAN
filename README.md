@@ -9,7 +9,7 @@ Published on _2020 Computer Vision and Image Understanding (CVIU)_
 [[Paper](https://www.baidu.com)] [[Project Page](https://www.baidu.com)]
 ___
 
-## dependency
+## Dependency
 - Python >= 3.5  
 - [Pytorch](https://pytorch.org/) >= 1.1  
 - Torchvision >= 0.4.2  
