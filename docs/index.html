@@ -1,0 +1,285 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PCFANet</title>
+    <link rel="stylesheet" type="text/css" href="./resource/style.css">
+</head>
+
+<body>
+<br>
+<center>
+    <span style="font-size:42px">Pyramid Channel-based Feature Attention Network for Image Dehazing</span>
+</center>
+
+<br>
+<table align="center" width="700px">
+    <tbody>
+    <tr>
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px"><a href="https://www.scopus.com/authid/detail.uri?authorId=35232030000">Xiaoqin Zhang</a></span>
+            </center>
+        </td>
+
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px"><a href="https://www.scopus.com/authid/detail.uri?authorId=57215036874">Tao Wang</span>
+            </center>
+        </td>
+
+
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px">Jinxin Wang</span>
+            </center>
+        </td>
+
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px">Guiying Tang</a></span>
+            </center>
+        </td>
+
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px">Li Zhao</a></span>
+            </center>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<table align="center" width="700px">
+    <tbody>
+    <tr>
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px">Wenzhou University</span>
+            </center>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<table align="center" width="700px">
+    <tbody>
+    <tr>
+        <td align="center" width="100px">
+            <center>
+                <span style="font-size:20px;color:red"><a href="www.elsevier.com/locate/cviu">CVIU, 2020</a></span>
+            </center>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<center>
+    <div class="card">
+        <div class="caption-container">
+            <span class="caption"></span>
+        </div>
+    </div>
+</center>
+
+
+<br>
+<p align="justify" style="font-size: 18px">
+Traditional deep learning-based image dehazing methods usually use the high-level features (which contain
+more semantic information) to remove haze in the input image, while ignoring the low-level features (which
+contain more detail information). In this paper, a Pyramid Channel-based Feature Attention Network (PCFAN)
+is proposed for single image dehazing, which leverages complementarity among different level features in a
+pyramid manner with channel attention mechanism. PCFAN consists of three modules: a three-scale feature
+extraction module, a pyramid channel-based feature attention module (PCFA), and an image reconstruction
+module. The three-scale feature extraction module simultaneously captures the low-level spatial structural
+features and the high-level contextual features in different scales. The PCFA module utilizes the feature pyramid
+and the channel attention mechanism, which effectively extracts interdependent channel maps and selectively
+aggregates the more important features in a pyramid manner for image dehazing. The image reconstruction
+module is used to reconstruct features to recover a clear image. Meanwhile, a loss function that combines
+a mean square error loss part and an edge loss part is employed in PCFAN, which can better preserve
+image details. Experimental results demonstrate that the proposed PCFAN outperforms existing state-of-the-art
+algorithms on standard benchmark datasets in terms of accuracy, efficiency, and visual effect. 
+</p>
+
+<br>
+<hr>
+<center><h1>News</h1></center>
+<ul>
+    <li>[June 2020] Paper is released on <a href="https://doi.org/10.1016/j.cviu.2020.103003">CVIU</a></li>
+    <li>[January 2021] Code released on <a href="https://github.com/proteus1991/GridDehazeNet">Github</a></li>
+</ul>
+
+<br>
+<hr>
+<center><h1>Paper</h1></center>
+<table align="center" width="700">
+
+    <tbody>
+    <tr>
+        <td><a href="./resource/PCFAN.pdf"><img style="height:180px; border: solid; border-radius:30px;"
+                            src="./resource/paper_cover.png"></a></td>
+        <td><span style="font-size:18px">Xiaoqin Zhang, Tao Wang, Jinxin Wang, Guiying Tang, Li Zhao<br>
+                          <br><br>
+                         Pyramid Channel-based Feature Attention Network for Image Dehazing<br><br>
+
+			  <a href="https://doi.org/10.1016/j.cviu.2020.103003">CVIU, 2020</a> (to appear).<br>
+                    </span></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+
+<table align="center" width="700px">
+    <tbody>
+    <tr>
+        <td>
+                    <span style="font-size:18px"><center>
+                      <a href="./resource/PCFAN.pdf">[PDF]</a>
+                    </center></span></td>
+
+        <td><span style="font-size:18px"><center>
+                      <a href="./resource/bibtex.txt">[Bibtex]</a>
+                    </center></span></td>
+
+        <td><span style="font-size:18px"><center>
+                      <a href="https://github.com/proteus1991/GridDehazeNet">[Code]</a>
+                    </center></span></td>
+
+    </tr>
+    </tbody>
+</table>
+<br>
+<hr>
+
+<center><h1>Overall architecture of PCFAN</h1></center>
+<center>
+    <img class="round" style="height:500" src="./resource/PCFAN_main.png"></a>
+</center>
+<br>
+<center><h1>Detailed structure of the channel attention block.</h1></center>
+<center>
+    <img class="round" style="height:220" src="./resource/PCFAN_block.png"></a>
+</center>
+
+
+<br>
+<hr>
+
+<center><h1> Qualitative Comparisons</h1></center>
+<br>
+
+<table align="center" width="900px">
+    <tbody>
+    <tr>
+        <td width="100px">
+            <center>
+                <a href="./resource/SOTS.png"><img src="./resource/SOTS.png" width="900px"></a><br>
+            </center>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <center>
+                    <span style="font-size:14px">
+                            Visual comparison results on the SOTS dataset.
+                    </span>
+            </center>
+        </td>
+
+    </tr>
+    <tr>
+        <td colspan="2">
+            <center>
+                <a href="./resource/RTTS.png"><img src="./resource/RTTS.png" width="900px"></a><br>
+            </center>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <center>
+                    <span style="font-size:14px">
+                        Visual comparison with state-of-the-art dehazing methods on the RTTS dataset. 
+                    </span>
+            </center>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+
+<br>
+<hr>
+
+<center><h1> Quantitative Comparisons</h1></center>
+<br>
+
+<table align="center" width="900px">
+    <tbody>
+
+    <tr>
+        <td colspan="2">
+            <center>
+                <a href="./resource/Comparisons_SOTS.png"><img src="./resource/Comparisons_SOTS.png" width="900px"></a><br>
+            </center>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td colspan="2">
+            <center>
+                    <span style="font-size:14px">
+                        Quantitative comparison results of the seven state-of-the-art methods and the PCFAN on the SOTS set.
+                    </span>
+            </center>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <center>
+                <a href="./resource/Ablation_Study.png"><img src="./resource/Ablation_Study.png" width="900px"></a><br>
+            </center>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td colspan="2">
+            <center>
+                    <span style="font-size:14px">
+                        Comparisons on both indoor and outdoor datasets of SOTS of variants of the proposed PCFAN.
+                    </span>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <center>
+                <a href="./resource/Runtime.png"><img src="./resource/Runtime.png" width="500px"></a><br>
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <center>
+                    <span style="font-size:14px">
+                        Runtime comparison of different dehaizng methods on SOTS dataset.
+                    </span>
+            </center>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+
+<hr>
+<br>
+
+
+</body>
+</html>

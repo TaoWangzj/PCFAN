@@ -1,0 +1,9 @@
+@article{Zhang2020pyramid,
+title = {Pyramid Channel-based Feature Attention Network for image dehazing},
+author = {Zhang, Xiaoqin and Wang, Tao and Wang, Jinxin and Tang, Guiying  and Zhao, Li},
+journal = {Computer Vision and Image Understanding},
+volume = {197-198},
+pages = {103003},
+year = {2020},
+publisher={Elsevier}
+}
