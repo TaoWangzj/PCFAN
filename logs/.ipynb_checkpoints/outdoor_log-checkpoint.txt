@@ -1,0 +1,10 @@
+Date: 2021-01-13 21:02:29s, Epoch: [2/10], Train_PSNR: 20.83, Val_PSNR: 21.98, Val_SSIM: 0.8634
+Date: 2021-01-13 21:13:37s, Epoch: [3/10], Train_PSNR: 22.73, Val_PSNR: 22.99, Val_SSIM: 0.9086
+Date: 2021-01-13 21:24:38s, Epoch: [4/10], Train_PSNR: 23.64, Val_PSNR: 24.16, Val_SSIM: 0.9246
+Date: 2021-01-13 21:35:42s, Epoch: [5/10], Train_PSNR: 24.28, Val_PSNR: 23.09, Val_SSIM: 0.9081
+Date: 2021-01-13 21:46:47s, Epoch: [6/10], Train_PSNR: 25.90, Val_PSNR: 23.23, Val_SSIM: 0.8960
+Date: 2021-01-13 21:57:54s, Epoch: [7/10], Train_PSNR: 26.32, Val_PSNR: 23.18, Val_SSIM: 0.9019
+Date: 2021-01-13 22:08:48s, Epoch: [8/10], Train_PSNR: 26.52, Val_PSNR: 23.40, Val_SSIM: 0.8981
+Date: 2021-01-13 22:19:44s, Epoch: [9/10], Train_PSNR: 26.68, Val_PSNR: 23.19, Val_SSIM: 0.9010
+Date: 2021-01-13 22:30:39s, Epoch: [10/10], Train_PSNR: 26.81, Val_PSNR: 23.61, Val_SSIM: 0.9055
+Date: 2021-01-13 22:41:33s, Epoch: [11/10], Train_PSNR: 27.07, Val_PSNR: 23.52, Val_SSIM: 0.9040
