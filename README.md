@@ -6,7 +6,7 @@ Codes for Pyramid Channel-based Feature Attention Network for Image Dehazing.
 
 Published on _2020 Computer Vision and Image Understanding (CVIU)_
 
-[[Paper](https://github.com/TaoWangzj/PCFAN/resource/PCFAN.pdf)] [[Project Page](https://www.baidu.com)]
+[[Paper](https://taowangzj.github.io/PCFAN/resource/PCFAN.pdf)] [[Project Page](https://taowangzj.github.io/PCFAN/)]
 ___
 
 ## Dependency
