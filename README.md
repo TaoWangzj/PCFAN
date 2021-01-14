@@ -21,7 +21,7 @@ ___
 Make you dataset by:
 Downloading the ITS training and SOTS testing datasets from [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0).
 1. Training dataset: Put hazy and clear folers from downloaded ITS in ```./data/train/ITS/```. 
-2. Testing dataset:  put downloaded SOTS them(~1000 images) in ```./data/testing/SOTS/```. 
+2. Testing dataset:  put downloaded SOTS (~1000 images) in ```./data/testing/SOTS/```. 
 3. Note: train.txt and val.txt provide the image list for training and testing, respectively.
 
 ## Code Introduction
