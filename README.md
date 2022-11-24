@@ -2,7 +2,7 @@
 Codes for Pyramid Channel-based Feature Attention Network for Image Dehazing.
 
 ### Pyramid Channel-based Feature Attention Network for Image Dehazing
-[Xiaoqin Zhang](https://scholar.google.com/citations?user=kJCh3k8AAAAJ&hl=en), [Tao Wang](https://taowangzj.github.io/about), Jinxin Wang, Guiying Tang, Li Zhao
+[Xiaoqin Zhang](https://scholar.google.com/citations?user=kJCh3k8AAAAJ&hl=en), [Tao Wang](https://taowangzj.github.io), Jinxin Wang, Guiying Tang, Li Zhao
 
 Published on _2020 Computer Vision and Image Understanding (CVIU)_
 
