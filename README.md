@@ -24,6 +24,11 @@ Downloading the ITS training and SOTS testing datasets from [RESIDE](https://sit
 2. Testing dataset:  put downloaded SOTS (~1000 images) in ```./data/testing/SOTS/```. 
 3. Note: train.txt and val.txt provide the image list for training and testing, respectively.
 
+### Pretrained Model
+We provide the pre-trained models in the following:
+- A model trained on ITS for SOTS-Indoor [[Baidu drive](https://pan.baidu.com/s/1DoeA2oPv17EwrvUncV-B_A?pwd=a75g)].
+- A model trained on ITS for SOTS-Outdoor [[Baidu drive](https://pan.baidu.com/s/1DoeA2oPv17EwrvUncV-B_A?pwd=a75g)].
+
 ## Code Introduction
 - ```train.py``` and ```test.py``` are the codes for training and testing the PCFAN.
 - ```./datasets/datasets.py``` is used to load the training and testing datasets.
